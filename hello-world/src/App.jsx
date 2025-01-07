@@ -7,6 +7,9 @@ const App = () => {
   const AddValue = () => {
     if(counter < 50)
     setCounter(counter + 1)
+    else{
+      setCounter(0)
+    }
   }
   const MinusValue = () => {
     if(counter  > 0)
